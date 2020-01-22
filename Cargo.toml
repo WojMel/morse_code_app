@@ -1,0 +1,12 @@
+[package]
+name = "morse_code_app"
+version = "0.1.0"
+authors = ["Wojciech Meller <wojmel97@gmail.com>"]
+edition = "2018"
+
+[dependencies]
+actix-web = "1"
+
+lazy_static = "*"
+serde = "*"
+serde_derive = "*"
